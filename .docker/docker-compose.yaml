@@ -1,0 +1,14 @@
+version: '3.1'
+
+
+services:
+  api-gateway:
+    build:
+      context: Dockerfile
+    container_name: petrovedge-api-gateway
+    image: go-app-win:latest
+    ports:
+      - 80:85
+    restart: always
+    networks:
+      - api
