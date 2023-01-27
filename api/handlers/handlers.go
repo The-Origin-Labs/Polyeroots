@@ -10,12 +10,14 @@ import (
 
 func ApiHandler() {
 
+	// Automatic Marshal and UnMarshal
 	route := fiber.New(fiber.Config{
 		JSONEncoder: json.Marshal,
 		JSONDecoder: json.Unmarshal,
 	})
 
 	// Middleware
+	// Cross-Origin Resource Sharing
 	route.Use(cors.New())
 
 	// API metrics endpoint
