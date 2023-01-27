@@ -12,3 +12,7 @@ services:
     restart: always
     networks:
       - api
+  ethereum-client:
+    image: ethereum/client-go
+    ports:
+      - 30303:30303
