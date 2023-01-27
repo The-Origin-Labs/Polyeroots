@@ -14,6 +14,34 @@ Although just half had done so in the past, owners were more inclined to visit g
 
 There may be answers to the issue of insecurity if individuals are prepared to discuss ownership with governmental officials.
 
+## Project structure
+```shell
+├── .circleci
+├── .deepsource.toml
+├── .docker
+├── .git
+├── .gitignore
+├── .kubernetes
+├── .nginx
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+├── README.md
+├── SECURITY.md
+├── api
+├── assets
+├── ci
+├── client
+├── contracts
+├── guide
+├── migrations
+├── services
+├── test
+├── tools
+└── truffle-config.js
+
+```
+
+
 ## Author
 
 - Siddhant Prateek Mahanayak
