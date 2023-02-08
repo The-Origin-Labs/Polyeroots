@@ -16,3 +16,7 @@ services:
     image: ethereum/client-go
     ports:
       - 30303:30303
+  besu:
+    image: hyperledger/besu:latest 
+    ports: 
+      - 8545:8545
